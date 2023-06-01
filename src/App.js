@@ -1,15 +1,15 @@
 import './App.css';
 import { GroceryList } from './GroceryList';
-import image from './image-one.jpg';
-import imageTwo from './image-two.jpg';
+import shoppingBagImage from './img/image-shopping-bag.jpg';
+import shoppingAppImage from './img/image-shopping-app.jpg';
 
 function App() {
   return (
     <div className='app container'>
-      <img src={image} alt='Shopping bag' width='200px'/>
+      <img src={ shoppingBagImage } alt='Shopping bag' width='200px'/>
       <h1>Grocery List</h1>
       <GroceryList />
-      <img src={imageTwo} alt='Mobile App' width='200px'/>
+      <img src={ shoppingAppImage } alt='Mobile App' width='200px'/>
     </div>
   );
 }

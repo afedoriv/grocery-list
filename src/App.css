@@ -1,3 +1,4 @@
+
 body {
   background-color: #62c2c8;
 }
@@ -9,13 +10,10 @@ img {
 }
 input {
   font-size: 14px;
+  text-align: center;
   margin-top: 15px;
   padding: 10px;
-  text-align: center;
   width: 80%;
-}
-ul {
-  padding: 0;
 }
 ul, li {
   list-style: none;
@@ -23,22 +21,11 @@ ul, li {
 }
 
 
-.add {
-  background: #64a909;
-}
 .app {
   background-color: white;
   margin: 3vh auto;
   min-height: 80vh;
   width: 400px;
-}
-.btn {
-  border: none;
-  color: white;
-  font-size: 16px;
-  margin-top: 15px;
-  padding: 7px;
-  width: 65%;
 }
 .container, .form {
   display: flex;
@@ -49,6 +36,17 @@ ul, li {
 .crossed {
   background-color: #f0f0f0;
   text-decoration: line-through 2px tomato;
+}
+.btn {
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin-top: 15px;
+  padding: 7px;
+  width: 65%;
+}
+.add {
+  background: #64a909;
 }
 .delete {
   background: #fe505b;
